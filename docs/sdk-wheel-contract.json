@@ -1,0 +1,60 @@
+{
+  "wheel": "foundry_local_sdk_winml-1.2.4-py3-none-any.whl",
+  "sha256": "c73a75c2625e21f10a5a173b9d841ecdf526f8dd8fbe007102f8a710d93a9eb4",
+  "validation": "Static AST inspection only; Windows native execution not performed",
+  "classes": {
+    "FoundryLocalManager": {
+      "initialize": [
+        "config"
+      ],
+      "download_and_register_eps": [
+        "self",
+        "names",
+        "progress_callback",
+        "cancel_event"
+      ]
+    },
+    "AudioClient": {
+      "create_live_transcription_session": [
+        "self"
+      ]
+    },
+    "LiveAudioTranscriptionSession": {
+      "start": [
+        "self"
+      ],
+      "append": [
+        "self",
+        "pcm_data"
+      ],
+      "get_stream": [
+        "self"
+      ],
+      "stop": [
+        "self"
+      ]
+    },
+    "Model": {
+      "download": [
+        "self",
+        "progress_callback",
+        "cancel_event"
+      ],
+      "load": [
+        "self"
+      ],
+      "unload": [
+        "self"
+      ],
+      "is_cached": [
+        "self"
+      ],
+      "is_loaded": [
+        "self"
+      ],
+      "get_audio_client": [
+        "self"
+      ]
+    }
+  }
+}

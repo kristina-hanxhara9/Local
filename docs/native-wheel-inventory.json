@@ -1,0 +1,46 @@
+[
+  {
+    "wheel": "foundry_local_core_winml-1.2.4-py3-none-win_amd64.whl",
+    "sha256": "2f5197987fea23138ed175ff7f526e8679443c72403b24654719b41d01f265ed",
+    "notices": [],
+    "native_binaries": [
+      "foundry_local_core_winml/bin/Microsoft.AI.Foundry.Local.Core.dll",
+      "foundry_local_core_winml/bin/Microsoft.Windows.AI.MachineLearning.dll"
+    ]
+  },
+  {
+    "wheel": "foundry_local_sdk_winml-1.2.4-py3-none-any.whl",
+    "sha256": "c73a75c2625e21f10a5a173b9d841ecdf526f8dd8fbe007102f8a710d93a9eb4",
+    "notices": [
+      "foundry_local_sdk_winml-1.2.4.dist-info/licenses/LICENSE.txt"
+    ],
+    "native_binaries": []
+  },
+  {
+    "wheel": "onnxruntime_core-1.26.0-py3-none-win_amd64.whl",
+    "sha256": "f7eac193062ca60432b760fae572a4772ffa81c45c069851bcc1920056b9d534",
+    "notices": [],
+    "native_binaries": [
+      "onnxruntime_core/bin/onnxruntime.dll",
+      "onnxruntime_core/bin/onnxruntime_providers_shared.dll"
+    ]
+  },
+  {
+    "wheel": "onnxruntime_genai_core-0.14.1-py3-none-win_amd64.whl",
+    "sha256": "93e85fdf3496ad2b717311e0e2789a77f198f5f072d8221398a61ac23c2e091a",
+    "notices": [],
+    "native_binaries": [
+      "onnxruntime_genai_core/bin/onnxruntime-genai.dll"
+    ]
+  },
+  {
+    "wheel": "pyaudiowpatch-0.2.12.8-cp312-cp312-win_amd64.whl",
+    "sha256": "fd163a6531c4e4969925e687ef1bc57fae8ecc1a95de7ba707a436622552d7fa",
+    "notices": [
+      "pyaudiowpatch-0.2.12.8.dist-info/licenses/LICENSE.txt"
+    ],
+    "native_binaries": [
+      "_portaudiowpatch.cp312-win_amd64.pyd"
+    ]
+  }
+]

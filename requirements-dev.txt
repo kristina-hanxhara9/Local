@@ -1,0 +1,5 @@
+-r requirements.txt
+pytest>=8,<10
+PyInstaller>=6.10,<7; sys_platform == "win32"
+# Only the phase-1 official microphone example needs upstream PyAudio.
+PyAudio>=0.2.14,<0.3; sys_platform == "win32"

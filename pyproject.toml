@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = ["windows: requires Windows", "hardware: opt-in live devices and provisioned model", "ui: opt-in native desktop smoke check"]
